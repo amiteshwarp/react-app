@@ -15,7 +15,7 @@ function App() {
     <div className="wrapper">
       <h1>Applications</h1>
         <Routes>
-          <Route path="/dashboard" exact element={<Dashboard/>} />
+          <Route path="/" exact element={<Dashboard/>} />
           <Route path="/preferences" element={<Preferences/>} />
         </Routes>
     </div>
